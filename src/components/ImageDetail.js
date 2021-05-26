@@ -1,7 +1,6 @@
 import React from 'react';
 import {Text, StyleSheet, View, TouchableOpacity, Image} from 'react-native';
-const ImageDetail = props => {
-  const {title, imageSoure} = props;
+const ImageDetail = ({title, imageSoure}) => {
   return (
     <View>
       <Image source={imageSoure} />
